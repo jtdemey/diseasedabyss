@@ -13,7 +13,7 @@ Campaign Events (CEs) are the central mechanic that propels the random narrative
 2. **Natural**: A natural process of Vera causes an environmental effect, such as a whirlpool forming or a storm approaching.
 3. **Encounter**: The intersection of two or more seacraft, not necessarily hostile.
 4. **Altercation**: The intersection of two or more hostile seacraft, or alternatively a threat from a creature below.
-5. **Land Ho!**: The party encounters a rare patch of land, or something large enough upon Vera's surface to constitute traversable land, such as a large glacier or a drifting remnant of a civilization.
+5. **Land Ho!**: The party encounters something large enough upon Vera's surface to constitute traversable land, such as a large glacier, a drifting remnant of a civilization, or rarely a patch of natural land.
 6. **Summoning the Ancients**: It is common for the shifting of Vera's plates to dislodge pieces of ancient civilizations, some contents of which may float to the surface. Sometimes these contents are large enough to be traversed, but most are merely relics indicating that treasures of past generations are below.
 7. **Region Traversal**: The seas of Vera are not homogenous. The environment varies from hot, humid seas of water speckled with regular monsoons, to arctic sheets of loose ice shards accompanied by frigid winds. Some seas are poisonous or acidic, while others are comprised of liquids bestowed with magical effects. This event marks moving from one environment to another, which may or may not be undoable.
 

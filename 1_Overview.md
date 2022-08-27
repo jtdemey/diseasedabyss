@@ -16,8 +16,8 @@ Most sentient life on Vera sails. Very, very few have the luxury of a stable hom
 ## Playing the Game
 Playing DA is steeped in improvisation, both for the DM and the players. Vera is a tumultuous, chaotic, and dynamic world that is perfect for being held to the fate of the dice. Chance bears a crucial role in the narrative of each session, the degree of which is at the discretion of the DM.
 
-There are a few constraints.
-1. Firstly, all PCs must play aboard the same seacraft.
-2. The narrative is told, at least partially, through *Campaign Events*.
+There are a few constraints, all of which can be bent at the discretion of the DM.
+1. Firstly, all PCs must play aboard the same seacraft, for the most part.
+2. The narrative is told, at least partially, through random *Campaign Events*.
 ...
 
