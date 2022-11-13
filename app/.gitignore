@@ -3,10 +3,12 @@
 /node_modules
 /out/
 /build
+/dist
 /.svelte-kit
 /package
+/.vscode
 public/static/*
-dist
 combined.log
+da.db
 .env
 .env.*

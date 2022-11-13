@@ -1,4 +1,9 @@
 <script>
+  import { onMount } from "svelte";
+
+  onMount(() => {
+    console.log("bhel");
+  });
 </script>
 
 <main>
