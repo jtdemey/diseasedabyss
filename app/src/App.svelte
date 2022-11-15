@@ -1,8 +1,19 @@
 <script>
   import { onMount } from "svelte";
 
+  let toc = [];
+
   onMount(() => {
-    console.log("bhel");
+    fetch("/docs")
+      .then(res => res.json())
+      .then(res => {
+        if (!res.docs) {
+          console.error(`API returned no docs; perhaps run "npm run build"?`);
+          return;
+        }
+        toc = res.docs.map(doc => doc.doctitle);
+      })
+      .catch(err => console.error(err));
   });
 </script>
 
@@ -10,6 +21,9 @@
   <h1>Diseased Abyss</h1>
   <hr />
   <h2>A world of piracy for D&D 5e</h2>
+  {#each toc as sectionTitle}
+    <p>{sectionTitle}</p>
+  {/each}
 </main>
 
 <style>
@@ -28,11 +42,12 @@
   }
 
   hr {
-    width: 40%;
+    width: 30%;
     margin: auto;
   }
 
   h2 {
+    margin: 2rem 0;
     text-align: center;
   }
 </style>

@@ -10,6 +10,7 @@ const BREAK = `~~~~~~~~~~~~~~~~~~~\n`;
 stdout.write(`~Diseased Abyss~\n${BREAK}${BREAK}Building docs...\n`);
 
 createDb();
+executeTransaction("DELETE FROM gamedocs");
 
 const docDir = path.join(process.cwd(), "../docs/");
 
