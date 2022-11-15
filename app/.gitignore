@@ -10,5 +10,7 @@
 public/static/*
 combined.log
 da.db
+da.db-shm
+da.db-wal
 .env
 .env.*

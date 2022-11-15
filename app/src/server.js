@@ -1,20 +1,24 @@
 import fastify from "fastify";
-import fs from "fs";
+import fastifyStatic from "@fastify/static";
 import path from "path";
 import db from "../scripts/db.js";
 
 const server = fastify({ logger: true });
 
-server.get("/", async (request, reply) => {
-  const stream = fs.createReadStream(path.join(process.cwd(), "index.html"));
-  reply.type("text/html").send(stream);
+server.register(fastifyStatic, {
+  root: path.join(process.cwd(), "dist")
 });
 
-server.get("/docs", async (request, reply) => {
+server.get("/", (_, reply) => {
+  reply.sendFile("index.html");
+});
+
+server.get("/docs", (_, reply) => {
   const docs = db.prepare("SELECT * FROM gamedocs").all();
-  return {
-    docs
-  };
+  reply
+    .code(200)
+    .header("Content-Type", "application/json; charset=utf-8")
+    .send({ docs });
 });
 
 const start = async () => {
