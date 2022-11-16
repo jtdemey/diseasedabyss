@@ -1,6 +1,9 @@
 <script>
   import { onMount } from "svelte";
+  import TableOfContents from "./lib/components/TableOfContents.svelte";
+  import TextSection from "./lib/components/TextSection.svelte";
 
+  let sectionText = [];
   let toc = [];
 
   onMount(() => {
@@ -11,7 +14,8 @@
           console.error(`API returned no docs; perhaps run "npm run build"?`);
           return;
         }
-        toc = res.docs.map(doc => doc.doctitle);
+        toc = res.docs.map(doc => doc.doctitle.substring(2, doc.doctitle.length - 3));
+        sectionText = res.docs.map(doc => doc.doctext);
       })
       .catch(err => console.error(err));
   });
@@ -21,8 +25,9 @@
   <h1>Diseased Abyss</h1>
   <hr />
   <h2>A world of piracy for D&D 5e</h2>
-  {#each toc as sectionTitle}
-    <p>{sectionTitle}</p>
+  <TableOfContents {toc} />
+  {#each sectionText as html}
+    <TextSection {html} />
   {/each}
 </main>
 
