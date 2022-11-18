@@ -17,5 +17,9 @@
 </article>
 
 <style>
-
+  article {
+    width: 100%;
+    margin: 1rem 0;
+    line-height: 1.35rem;
+  }
 </style>

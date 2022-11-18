@@ -33,15 +33,15 @@
 
 <style>
   main {
-    width: 100%;
-    height: 100%;
-    margin: 1rem;
+    min-height: 100%;
+    margin: 1rem 2.3rem;
     background: hsl(44, 56%, 80%);
   }
 
   h1 {
     margin: 2rem 0;
     padding: 0.4rem 0.8rem;
+    color: #3a1906;
     font-size: 2rem;
     text-align: center;
   }
@@ -53,6 +53,7 @@
 
   h2 {
     margin: 2rem 0;
+    color: #3a1906;
     text-align: center;
   }
 </style>

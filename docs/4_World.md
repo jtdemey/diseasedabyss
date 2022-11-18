@@ -1,4 +1,4 @@
-# Vera: a World of Piracy
+# Vera: a World of Piracy <a name="world"></a>
 For a general description of Vera, check `1_Overview`. This document details the world's various characteristics.
 
 ## Table of Contents

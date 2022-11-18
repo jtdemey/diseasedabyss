@@ -1,4 +1,4 @@
-# Diseased Abyss Game Mechanics
+# Diseased Abyss Game Mechanics <a name="mechanics"></a>
 
 ## Table of Contents
 1. [Campaign Events](#campaignevents)
@@ -6,7 +6,7 @@
 3. [Ship Maintenance](#shipmaintenance)
 
 ## Campaign Events <a name="campaignevents"></a>
-Campaign Events (CEs) are the central mechanic that propels the random narrative of DA. The DM rolls for a Campaign Event to initiate each session, and furthermore during the session at their own discretion. CEs are classified by their *nature* and *degree*, which can be constrained or dictated by the DM at their whim.
+*Campaign Events* (CEs) are the central mechanic that propels the random narrative of DA. The DM rolls for a Campaign Event to initiate each session, and furthermore during the session at their own discretion. CEs are classified by their *nature* and *degree*, which can be constrained or dictated by the DM at their whim.
 
 ### Campaign Event Natures
 1. **Chaotic**: This is the default nature of a CE. It entails randomly choosing from any of the other natures through a die roll.
