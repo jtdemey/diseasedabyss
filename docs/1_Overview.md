@@ -5,7 +5,7 @@ Diseased Abyss (abbr. *DA*) is a framework for playing D&D 5e as a crew of pirat
 ## The World of Vera
 Vera is a reborn world. Long ago, it was known by another name in a forgotten tongue: a cornucopia of diverse life spanning across large swathes of land that bore all conceivable variance under its sun. Civilizations of every nature took their turns at sprawling across the world for millenia, each growing bloated from plentifulness until inevitably falling, as they all do.
 
-Vera was born of a flood too large to understand. Its nature is disputed; many deities have been named as its cause, but very few know the truth. D'aelfri's surface composition was roughly 71% liquid and 29% land. Vera's surface is over 99% liquid, with the very rare summits of land that emerge above the incomprehensibly deep depths under constant contention among the powerful. Often, natural or perhaps otherworldy forces will dislodge fragments of the shattered civilizations that rest deep below, their structures that once stood as testament to dynasties floating to the surface, causing tumultuous storms in their wake.
+Vera was born of a flood too large to understand. Its nature is disputed; many deities have been named as its cause, but very few know the truth. The world's surface composition was roughly 71% liquid and 29% land. Vera's surface is over 99% liquid, with the very rare summits of land that emerge above the incomprehensibly deep depths under constant contention among the powerful. Often, natural or perhaps otherworldy forces will dislodge fragments of the shattered civilizations that rest deep below, their structures that once stood as testament to dynasties floating to the surface, causing tumultuous storms in their wake.
 
 Life on Vera is largely under its opaque surface. Creatures of every imaginable size, shape, and demeanor can be found below, their nature loosely separated by the depths at which they can survive. Sentient, humanoid beings exist through ingenuity in civilizations just below the surface, or drifting upon it in seacraft. The deeper one goes, the more life is obscured by the unknown. Legends tell of the sightings of leviathans so large it is impossible to see their entirety. Sailor's tales describe demons and devils born of Vera's submerged evils dragging vessels to their cold damnation deep below.
 
@@ -17,5 +17,6 @@ Playing DA is steeped in improvisation, both for the DM and the players. Vera is
 There are a few constraints, all of which can be bent at the discretion of the DM.
 1. Firstly, all PCs must play aboard the same seacraft, for the most part.
 2. The narrative is told, at least partially, through random *Campaign Events*.
+3. Although plane traversal for short periods of time is allowed, the narrative should not stray from this plane.
 ...
 
