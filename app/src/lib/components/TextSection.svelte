@@ -6,9 +6,11 @@
   let articleRef;
 
   onMount(() => {
-    console.log(html);
     const element = document.createElement("section");
+    element.classList.add("text-section");
     element.innerHTML = html;
+    const line = document.createElement("hr");
+    element.appendChild(line);
     articleRef.appendChild(element);
   });
 </script>
