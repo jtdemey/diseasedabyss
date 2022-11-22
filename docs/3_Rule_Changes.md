@@ -1,7 +1,7 @@
-# Rule Changes <a name="rulechanges"></a>
+# Rule Changes <a name="rule_changes"></a>
 As *Diseased Abyss* is intended to be a D&D framework, all content from standard edition of Dungeons and Dragons 5e are available for usage. However, due to the extraordinary nature of Vera, some content has been revised in order to prevent game-breaking or fun-hindering mechanics.
 
-## Table of Contents
+## Sections 
 1. [Feats](#feats)
 
 ## Feats <a name="feats"></a>

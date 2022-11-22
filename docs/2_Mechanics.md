@@ -1,6 +1,6 @@
 # Diseased Abyss Game Mechanics <a name="mechanics"></a>
 
-## Table of Contents
+## Sections 
 1. [Campaign Events](#campaignevents)
 2. [Acquiring a Ship](#acquiringaship)
 3. [Ship Maintenance](#shipmaintenance)
@@ -26,6 +26,11 @@ To further configure the severity of a CE's effects on the party, they are furth
 4. **Severe**: Events that are easily life-threatening fall into this degree.
 
 ## Acquiring a Ship <a name="acquiringaship"></a>
+
+### Salvageable Vessels <a name="salvageablevessels"></a>
+Although land is sparse in Vera, materials to make floating vessels can often be found strewn across the surface, as remnants and refuse from civilizations and other aquatic life drift upwards.
+
+
 
 ## Ship Maintenance <a name="shipmaintenance"></a>
 
