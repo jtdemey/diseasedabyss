@@ -1,8 +1,8 @@
 <script>
   import { onMount } from "svelte";
-  import DarkModeToggle from "./lib/components/DarkModeToggle.svelte";
-  import TableOfContents from "./lib/components/TableOfContents.svelte";
-  import TextSection from "./lib/components/TextSection.svelte";
+  import DarkModeToggle from "$lib/components/DarkModeToggle.svelte";
+  import TableOfContents from "$lib/components/TableOfContents.svelte";
+  import TextSection from "$lib/components/TextSection.svelte";
 
   let sectionText = [];
   let toc = [];
@@ -36,7 +36,7 @@
 <style>
   main {
     min-height: 100%;
-    margin: 1rem 2.3rem;
+    padding: 1rem 2.3rem;
     background: hsl(44, 56%, 80%);
   }
 

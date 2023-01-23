@@ -26,11 +26,34 @@ To further configure the severity of a CE's effects on the party, they are furth
 4. **Severe**: Events that are easily life-threatening fall into this degree.
 
 ## Acquiring a Ship <a name="acquiringaship"></a>
+Each ship has a distinct *class*, *size*, and *quality*. A ship's *class* refers to its intended function, its *size* is a measurement of width by length in meters, and its *quality* refers to a combination of the structural application of well-designed materials as well as the craftsmanship of the ship's builders. Each *class* of ship can be constructed with one or more levels of *quality*.
 
-### Salvageable Vessels <a name="salvageablevessels"></a>
-Although land is sparse in Vera, materials to make floating vessels can often be found strewn across the surface, as remnants and refuse from civilizations and other aquatic life drift upwards.
+### Ship Classes
+1. **Fishing vessels**
 
+    A. **Trawlers**
+    These ships are designed to deploy trawls at various depths in hopes of catching fish.
 
+2. **Utility vessels**
+
+    A. **Dredgers**
+
+### Ship Qualities
+
+1. **Salvaged**
+Although land is sparse in Vera, materials to make floating vessels can often be found strewn across the surface, as remnants and refuse from civilizations and other aquatic life drift upwards. Salvaged seacraft can indeed be fashioned from these remnants, but the process is arduous and difficult, requiring an adept shipbuilder to be effective. 
+
+2. **Shoddy**
+Shoddy vessels are functional, and with continued maintenance can fare most seas, but they stand frail against the more tumultuous environments and a well-placed cannon shot can easily compromise their hulls.
+
+3. **Standard**
+Standard vessels are defined by having an intact and unrotted hull and being able to operate with typical maintenance.
+
+4. **Exceptional**
+Exceptional vessels are of remarkable quality, built from finer materials and with well-designed frames that can withstand the harsh turmoils of the sea.
+
+5. **Masterwork**
+Made from the finest refined alloys, the rarest driftwoods, and the finest canvases, masterwork vessels are rare and valuable.
 
 ## Ship Maintenance <a name="shipmaintenance"></a>
 
