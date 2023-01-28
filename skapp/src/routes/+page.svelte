@@ -1,11 +1,19 @@
 <script>
-  import { onMount } from "svelte";
+  import { createEventDispatcher, onMount } from "svelte";
   import DarkModeToggle from "$lib/components/DarkModeToggle.svelte";
   import TableOfContents from "$lib/components/TableOfContents.svelte";
   import TextSection from "$lib/components/TextSection.svelte";
 
+  let darkMode = false;
   let sectionText = [];
   let toc = [];
+
+  const dispatch = createEventDispatcher();
+
+  const onThemeChange = () => {
+    darkMode = !darkMode;
+    console.log(darkMode);
+  };
 
   onMount(() => {
     fetch("/docs")
@@ -22,14 +30,14 @@
   });
 </script>
 
-<main>
-  <DarkModeToggle />
+<main class={darkMode ? "dark" : "light"}>
+  <DarkModeToggle {darkMode} on:themechange={onThemeChange} />
   <h1>Diseased Abyss</h1>
   <hr />
   <h2>A world of piracy for D&D 5e</h2>
-  <TableOfContents {toc} />
+  <TableOfContents {darkMode} {toc} />
   {#each sectionText as html}
-    <TextSection {html} />
+    <TextSection {darkMode} {html} />
   {/each}
 </main>
 
@@ -37,13 +45,12 @@
   main {
     min-height: 100%;
     padding: 1rem 2.3rem;
-    background: hsl(44, 56%, 80%);
+    transition: background 0.2s;
   }
 
   h1 {
     margin: 2rem 0;
     padding: 0.4rem 0.8rem;
-    color: #3a1906;
     font-size: 2rem;
     text-align: center;
   }
@@ -55,7 +62,12 @@
 
   h2 {
     margin: 2rem 0;
-    color: #3a1906;
     text-align: center;
+  }
+
+  @media all and (min-width: 900px) {
+    main {
+      padding: 1rem 22%;
+    }
   }
 </style>

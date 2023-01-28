@@ -1,4 +1,5 @@
 <script>
+  export let darkMode = false;
   export let toc = [];
 
   const formatTitle = (title, index) => `${index + 1}. ${title.replace("_", " ")}`;

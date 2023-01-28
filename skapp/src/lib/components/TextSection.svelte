@@ -1,7 +1,7 @@
 <script>
   import { onMount } from "svelte";
 
-  export let html = ""; 
+  export let html = "";
 
   let articleRef;
 

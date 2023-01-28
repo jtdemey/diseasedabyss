@@ -13,11 +13,11 @@
 </script>
 
 <div id="container" on:click={handleClick}>
-  <div id="knob" style="left: {darkMode ? '1.95rem' : '-0.05rem'};">
-    <svg id="sun" style="display: {darkMode ? 'none' : 'block'}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <div id="knob" style="left: {darkMode ? "1.95rem" : "-0.05rem"};">
+    <svg id="sun" class={darkMode ? "hidden" : "shown"} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
       <path fill="hsl(44, 42%, 20%)" d={SUN_PATH} />
     </svg>
-    <svg id="moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+    <svg id="moon" class={darkMode ? "shown" : "hidden"} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
       <path fill="hsl(44, 55%, 70%)" d={MOON_PATH} />
     </svg>
   </div>
@@ -25,6 +25,14 @@
 </div>
 
 <style>
+  .hidden {
+    display: none;
+  }
+
+  .shown {
+    display: block;
+  }
+
   #container {
     position: fixed;
     top: 1rem;
